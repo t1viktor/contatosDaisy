@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.telaAddCtt{
+    @apply border-y-primary border-y-2 fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-base-300 my-2 flex-col items-center py-4 gap-2;
+}
+
+.selectImg{
+    @apply flex flex-col items-center gap-2;
+}
+
+.previewImgCtt{
+    @apply w-28 h-28 rounded border-2 border-primary;
+}
+
+.selectImgCriarCtt{
+    @apply file-input file-input-bordered file-input-success w-full max-w-xs;
+}
+
+.inputCtt{
+    @apply input input-bordered input-info w-full max-w-xs;
+}
+
+.salvarCttCriado{
+    @apply btn btn-primary;
+}
+
+.sairTelaCriar{
+    @apply btn btn-error;
+}
+
+.infoAdd{
+    @apply text-neutral overflow-auto bg-base-300 p-2 text-2xl justify-center border-neutral border-2 rounded;
+}
+
+.infoEdit{
+    @apply text-neutral overflow-auto bg-secondary p-2 text-2xl justify-center border-neutral border-2 rounded;
+}
+
+.cttMax {
+    @apply bg-base-300  w-96 fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col border-neutral-content border-2 rounded items-center gap-2 p-2;
+}
+
+
+.cttMin{
+    @apply bg-base-300 h-2/3 w-full flex border-neutral-content border-2 rounded items-center gap-2 p-2;
+}
+
+.imgAdd{
+    @apply h-24 w-24 border-neutral-content border-2 rounded;
+}
+
+.infosCtt{
+    @apply bg-base-100 w-full flex flex-col justify-between h-full p-2 text-center gap-1;
+}
+
+.btnsCtt{
+    @apply gap-2;
+}
+
+.btnSairCtt{
+    @apply  btn btn-info;
+}
+
+.btnEditCtt{
+    @apply  btn btn-warning;
+}
+
+.btnExcCtt{
+    @apply   btn btn-error;
+}
+
+.btnVerMaisCtt{
+    @apply btn btn-info;
+}

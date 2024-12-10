@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatos</title>
+  <link href="output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+</head>
+
+<body class="min-h-screen bg-base-100">
+
+  <header
+    class="w-full h-24 flex items-center justify-center  bg-base-300 text-secondary text-4xl shadow-lg shadow-base ">
+    Contatos</header>
+
+    <details class="dropdown absolute top-4 left-1">
+      <summary class="btn m-1">Tema</summary>
+      <ul class="menu dropdown-content bg-base-100 rounded-box z-[1] min-w-20 p-2 shadow">
+        <li id="dark"><a>Dark </a></li>
+        <li id="cupcake"><a>Cupcake </a></li>
+        <li id="valentine"><a>Valentine </a></li>
+        <li id="dracula"><a>Dracula </a></li>
+        <li id="retro"><a>Retro </a></li>
+      </ul>
+    </details>
+
+  <div class="telaAddCtt hidden">
+
+    <div class="selectImg ">
+      <img class="previewImgCtt" src="" alt="">
+      <input type="file" class="selectImgCriarCtt" />
+    </div>
+
+    <input maxlength="30" type="text" placeholder="Escolha um nome"
+      class="nomeValue inputCtt" />
+
+    <input type="number" placeholder="Escolha um número"
+      class="numValue inputCtt" />
+
+    <input maxlength="30" type="email" placeholder="Escolha um email"
+      class="emailValue inputCtt" />
+
+    <input maxlength="36" type="text" placeholder="Escolha uma descrição"
+      class="descValue inputCtt" />
+
+      <div class="flex gap-2">
+        <button class="salvarCttCriado">Salvar</button>
+        <button class="sairTelaCriar">Sair</button>
+      </div>
+  </div>
+
+  <button class="btnTelaAddCtt fixed bottom-5 right-4 btn btn-outline btn-secondary"><i class="fa-solid fa-plus"></i></button>
+
+  <main class="w-full min-h-screen bg-base-300 my-2 py-4 px-2">
+
+    <section class="allCtt w-full min-h-screen bg-base-100 rounded py-4 px-2 flex flex-col items-center gap-2">
+
+  <!--   <div class="cttMax">
+
+      
+        <div class="selectImg ">
+      <img class="imgAdd" src="https://pbs.twimg.com/media/GIl1UGxW0AABBzx.jpg" alt="">
+      <input type="file" class="hidden" />
+       </div>
+
+        <div class="infosCtt">
+
+          <h2 class="infoAdd nomeAdd">Morty Smith</h2>
+          <h2 class="infoAdd  numAdd">00000000</h2>
+          <h2 class="infoAdd  localValue">Terra</h2>
+          <h2 class="infoAdd  descValue">morty evil</h2>
+
+        </div>
+
+        <div class="btnsCtt">
+          <button class="btnSairCtt flex">Sair</button>
+          <button class="btnEditCtt flex">Editar</button>
+          <button class="btnExcCtt flex">Excluir</button>
+        </div>
+
+        <button class="hidden">Ver mais</button>
+
+      </div>  --> 
+
+    <!--   <div class="cttMax">
+
+        <img class="imgAdd" src="https://pbs.twimg.com/media/GIl1UGxW0AABBzx.jpg" alt="">
+
+        <div class="infosCtt">
+
+          <h2 class="infoAdd nomeAdd">Morty Smith</h2>
+          <h2 class="infoAdd  numAdd">00000000</h2>
+          <h2 class="infoAdd  localValue">Terra</h2>
+          <h2 class="infoAdd  descValue">morty evil</h2>
+
+        </div>
+
+        <div class="btnsCtt">
+          <button class="btnSairCtt flex">Sair</button>
+          <button class="btnEditCtt flex">Editar</button>
+          <button class="btnExcCtt flex">Excluir</button>
+        </div>
+
+        <button class="hidden">Ver mais</button>
+
+      </div>  -->
+
+    </section>
+
+  </main>
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
